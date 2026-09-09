@@ -1,1 +1,12 @@
+-- ⚠️ WARNING ⚠️
+-- This script will create a database and three schemas: gold, silver, and bronze
+-- Please ensure you have the necessary permissions and backups before running
+-- Modify database and schema names as needed for your environment
 
+-- Create Database
+CREATE DATABASE IF NOT EXISTS data_warehouse;
+
+-- Create Schemas
+CREATE SCHEMA IF NOT EXISTS gold;
+CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA IF NOT EXISTS bronze;
